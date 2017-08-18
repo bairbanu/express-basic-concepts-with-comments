@@ -1,0 +1,33 @@
+{
+  "name": "express-basic-concepts-with-comments",
+  "version": "1.0.0",
+  "description": "Basic express server that shows off beginning fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubairnahmed/express-basic-concepts-with-comments.git"
+  },
+  "keywords": [
+    "express",
+    "basic",
+    "fundamentals",
+    "middleware"
+  ],
+  "author": "Zubair Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zubairnahmed/express-basic-concepts-with-comments/issues"
+  },
+  "homepage": "https://github.com/zubairnahmed/express-basic-concepts-with-comments#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
